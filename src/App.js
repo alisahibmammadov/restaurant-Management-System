@@ -9,7 +9,6 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Contact from "./components/contact/Contact";
 import SingleCard from "./pages/singlePage/SingleCard";
-import { Card } from "react-bootstrap";
 import About from "./components/about/About";
 
 function App() {

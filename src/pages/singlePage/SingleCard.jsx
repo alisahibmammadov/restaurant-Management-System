@@ -101,7 +101,7 @@ function SingleCard() {
                     return(
                         <Link to={'/'} >
                        <div key={id} className={styles["card"]}>
-                            <img className={styles['single-img']} src={`/img/${img}.png`}/>
+                            <img className={styles['single-img']} alt='' src={`/img/${img}.png`}/>
                                 <h2>{item}</h2>
                             <p className={styles['card-weight']}>{weight}g</p>
                                 <p>{text}</p>

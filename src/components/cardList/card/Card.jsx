@@ -26,7 +26,7 @@ function Card({ addToCart }) {
           return (
             <div key={item.id} className={styles["card"]}>
               <Link to={`/card/${item.id}`}>
-              <img src={`/img/${item.img}.png`} />
+              <img src={`/img/${item.img}.png`} alt=""/>
               </Link>
               <h2 className={styles.ProductName}>{item.item}</h2>
               <p className={styles["card-weight"]}>{item.weight}g</p>
@@ -49,7 +49,7 @@ function Card({ addToCart }) {
           return (
             <div key={item.id} className={styles["card"]}>
               <Link to={`/card/${item.id}`}>
-              <img src={`/img/${item.img}.png`} />
+              <img src={`/img/${item.img}.png`} alt=""/>
               </Link>
               <h2>{item.item}</h2>
               <p className={styles["card-weight"]}>{item.weight}g</p>
