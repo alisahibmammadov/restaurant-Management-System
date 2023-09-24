@@ -1,0 +1,164 @@
+/* body{
+    padding: 50px 0;
+    overflow-x: hidden;
+} */
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.card-container{
+    padding: 30px;
+    display: flex;
+    gap: 15px;
+}
+.card:hover{
+    transform:translateY(-15px);
+}
+.card{
+    cursor: pointer;
+    transition: .4s;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 5px;
+    max-width: 2000px;
+    height: auto;
+}
+.card-weight{
+    font-size: 13px;
+    width: fit-content;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: gray;
+}
+.card-price-row{
+    display: flex;
+    gap: 30px;
+}
+.card-price-row i{
+    cursor: pointer;
+    padding: 5px;
+     background-color:#FBD13E;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+-------- */
+.card-single{
+    width: 100%;
+}
+.card-big-container{
+    align-items: center;
+    display: flex;
+    gap: 30px;
+}
+.card-single h1{
+    font-size: 4rem;
+    padding: 50px 0px 10px 50px;
+}
+.card-text-single{
+    padding-left: 50px;
+}
+.pElement{
+    opacity: 0.5;
+}
+.card-single img{
+    padding-top: 20px;
+    object-fit: cover;
+    width: 100%;
+    height: 500px;
+    max-width: 700px;
+}
+.card-text-single{
+    display: flex;
+    gap: 10px;
+}
+.card-single-block{
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+.card-container-block{
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: black;
+    color: white;
+}
+.card-container-block{
+
+    width: 100%;
+    max-width: 700px;
+    display: flex;
+    gap: 40px;
+}
+.card-single-center{
+    position: relative;
+    padding: 10px 15px;
+    border: 1px solid;
+}
+.span-card-1{
+    cursor: pointer;
+    color: wheat;
+    background-color: black;
+    padding: 3px;
+    top: 9px;
+    position: absolute;
+    right: -10px;
+}
+.span-card-2{
+    cursor: pointer;
+    color: wheat;
+    background-color: black;
+    padding: 3px;
+    top: 7px;
+    position: absolute;
+    left: -10px;
+}
+.card-single-end{
+    align-items: center;
+    display: flex;
+    gap: 20px;
+}
+.card-single-page{
+    flex-direction: column;
+    display: flex;
+    gap: 5px;
+}
+.card-single-end i{
+    color: black;
+    padding: 10px;
+    background-color: #FBD13E;
+}
+.section-card{
+    padding: 50px;
+}
+.singlecard-container{
+    padding: 50px 0;
+    display: flex;
+    gap: 40px;
+    width: 250px;
+}
+.single-img{
+    width: 250px;
+    height: auto;
+}

@@ -1,0 +1,50 @@
+
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    /* margin-top: 20px; */
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+
+.links {
+    display: flex;
+    gap: 1rem;
+    margin-left: 1rem;
+    list-style: none;
+}
+
+.links a {
+    color: white;
+    font-size: 12px;
+}
+
+.right {
+    margin-left: auto;
+}
+
+.bottom {
+    padding-top: .5rem;
+    border-top: 1px solid #333;
+}
+
+.container {
+    text-align: center;
+}
+
+
+@media screen and (max-width: 768px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+    }
+}
