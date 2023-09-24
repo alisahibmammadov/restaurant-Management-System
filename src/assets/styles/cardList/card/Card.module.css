@@ -55,14 +55,14 @@ body {
   display: flex;
   gap: 30px;
 }
-.ProductName{
+/* .ProductName{
   color: #FFF;
 font-family: Montserrat;
 font-size: 20px;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
-}
+} */
 .card-price-row i {
   cursor: pointer;
   padding: 5px;

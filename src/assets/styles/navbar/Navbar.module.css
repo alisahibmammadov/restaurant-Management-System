@@ -23,6 +23,11 @@
   line-height: normal;
   text-decoration: none;
 }
+
+.link:focus {
+  color: gray !important;
+ 
+}
 .link:hover {
   color: #ccc;
 }

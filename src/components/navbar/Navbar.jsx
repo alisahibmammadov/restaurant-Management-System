@@ -1,5 +1,5 @@
 import React, {  useState } from "react";
-import { Link } from "react-router-dom";
+import { Link,NavLink } from "react-router-dom";
 import style from "../../assets/styles/navbar/Navbar.module.css";
 
 function Navbar({ cartItems }) {
@@ -20,24 +20,24 @@ function Navbar({ cartItems }) {
         <img src="/img/Logo.svg" alt="" />
       </Link>
       <div className={style.links}>
-        <Link className={style.link} to="/">
+        <NavLink className={style.link} to="/">
         Ana Səhifə
-        </Link>
-        <Link className={style.link} to="/about">
+        </NavLink>
+        <NavLink className={style.link} to="/about">
         Haqqımızda
-        </Link>
-        <Link className={style.link} to="/contact">
+        </NavLink>
+        <NavLink  className={style.link} to="/contact">
         Əlaqə
-        </Link>
+        </NavLink>
         {/* <Link className={style.link} to="/card/:id">
         Kateqoriyalar
         </Link> */}
         {/* <Link className={style.link} to="/">
           ДЕСЕРТЫ
         </Link> */}
-        <Link className={style.link} to="/pos">
+        <NavLink className={style.link} to="/pos">
           POS
-        </Link>
+        </NavLink>
       </div>
       <div className={style.icons}>
         <i className="fa-solid fa-magnifying-glass"></i>
