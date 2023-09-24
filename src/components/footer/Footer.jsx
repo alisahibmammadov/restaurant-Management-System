@@ -18,9 +18,7 @@ function Footer() {
           <li className={styles.a}>
             <a href="/contact">Əlaqə</a>
           </li>
-          <li className={styles.a}>
-            <a href="/category">Kateqoriyalar</a>
-          </li>
+          
         </ul>
         <div className={styles.right}>
           <span className={styles.brandName}>delivery@gmail.com</span>
